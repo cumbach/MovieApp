@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Poppins:500|Open+Sans');
+@import "~bootstrap/scss/bootstrap";
+
+body, html {
+  background-color: rgba(0,0,0,.018);
+  color: rgba(0,0,0,.75);
+  font-family: 'Nunito';
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .card {
+    margin: 15px;
+
+    img {
+      height: 300px;
+      width: 228px;
+    }
+  }
+
+  .flex-center {
+    flex-grow: 1;
+  }
+}
+
+.card-header {
+  max-width: 228px;
+}
+
+.movie-image {
+  margin-bottom: 50px;
+}
+
+.back {
+  display: block;
+  padding: 15px;
+}
+
+.last {
+  margin-bottom: 100px;
+}
